@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Fira+Sans:ital@0;1&family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 'Bigelow Rules', cursive;
+}
+body{
+    min-height: 100vh;
+    max-height: 10vh;
+    background-image: url('1330235.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 32px;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+
+}
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+.home{
+    position: relative;
+    width: 50%;
+    height: 100px;
+    color: #fff;
+    /* background: #000; */
+    top: 15vw;
+    margin-left: 10vw;
+    font-family: 'Bigelow Rules', cursive;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    /* background-image: url('1330235.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center; */
+
+}
+.about{
+    position: relative;
+    top: 40vw;
+    height: 50vw;
+    width: 100%;
+    background: #1d1b26;
+}
+#aboutwhite{
+    position: relative;
+    top: 15%;
+    left: 15%;
+    height: 70%;
+    width: 70%;
+    background: #ffffff;
+}
+div div img{
+    position: absolute;
+    height: 20vw;
+    width: 20vw;
+    /* background-color: aqua; */
+    left: 45vw;
+    top: 10vw;
+
+}
+div div h1{
+    font-size: 50px;
+    padding-left: 10%;
+    padding-top: 5%;
+
+}
+.contact{
+    position: relative;
+    top: 40vw;
+    height: 50vw;
+    width: 100%;
+    background: #1d1b26;
+}
+#contactwhite{
+    position: relative;
+    top: 15%;
+    left: 15%;
+    height: 70%;
+    width: 70%;
+    background: #ffffff;
+}
+.contacticon{
+    position: relative;
+    height: 4vw;
+    width: 4vw;
+    left: 10vw;
+}
+.POSTION1{
+    position: relative;
+    top: 1vw;
+    /* background: red; */
+}
+.POSTION2{
+    position: relative;
+    top: 2vw;
+    /* background: blue; */
+}
+.POSTION3{
+    position: relative;
+    top: 2vw;
+}
+.about-para{
+    font-size: 30px;
+}
